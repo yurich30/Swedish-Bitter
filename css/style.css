@@ -20,6 +20,7 @@ body{
 .container-fluid{
   max-width: 1720px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header__inner{
@@ -233,6 +234,26 @@ body{
 .list__inner{
   display: flex;
   justify-content: space-between;
+  background-color: #f6f9f3;
+  position: relative;
+  padding-bottom: 30px;
+}
+.list__inner::before,
+.list__inner::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  background-color: #f6f9f3;
+}
+.list__inner::before{
+  content: "";
+  right: 100%;
+}
+.list__inner::after{
+  content: "";
+  left: 100%;
 }
 .tabs{
   padding-right: 20px;
@@ -344,6 +365,7 @@ body{
 }
 .tabs__reviews{
   padding: 20px;
+  padding-bottom: 0;
   background-color: #f6f9f3;
   max-width: 430px;
   position: absolute;
@@ -352,7 +374,6 @@ body{
 .tabs__reviews-inner{
   border: 1px solid #c5dab5;
   padding: 30px 50px 30px 40px;
-
 }
 .tabs__reviews-text{
   color: #303030;
@@ -361,7 +382,7 @@ body{
   color: #7eb152;
   padding: 0px 8px;
   position: absolute;
-  bottom: 10px;
+  bottom: -10px;
   background-color: #f6f9f3;
   font-weight: 600;
 }
@@ -382,6 +403,7 @@ body{
   text-decoration: none;
   min-width: 500px;
   position: relative;
+  margin-top: 20px;
 }
 .list__link a:after{
   content: '';
@@ -497,7 +519,7 @@ body{
   content: "";
   position: absolute;
   height: 100%;
-  width: 275px;
+  width: 100%;
   background-color: #f6f9f3;
   right: 100%;
   top: 0;
