@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <use id="стрелка" xlink:href="#_Image1" x="0.002" y="0" width="7.998px" height="13.992px" transform="matrix(0.999775,0,0,0.999452,0,0)"/>
+    <defs>
+        <image id="_Image1" width="8px" height="14px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAOCAYAAAASVl2WAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA1UlEQVQYlW3PoUpEQRiG4eesCjar3SyCF7DYzibRaDGKjmg0TBC2TLHqJBGLoE02OZv0CrwB8QKMmwRBLMNyPDrtne/9f76/ySXeYhM7oU3vem+AIdYxzSWu/icc4gtreMolrvwSQpum2Mc3NjDJJS53Nwhtusdp/RviIZe4MBeqdIVxxW1cQ9MvlUu8xHHFi0Ff6G79A7nEMY4q3oQ2nQ064QnOKz7iYN4hl7iHu8ovGIU2fUKTSxxhgiW8Yiu0adbtkGv4VifnISziGTPshjZ99E/6AXvJOpbC+S+uAAAAAElFTkSuQmCC"/>
+    </defs>
+</svg>
