@@ -105,6 +105,7 @@ body{
 .top__inner-title{
   font-size: 60px;
   margin-bottom: 40px;
+  line-height: 60px;
   font-weight: 600;
   color: #fff;
 }
@@ -113,6 +114,11 @@ body{
   color: #fff;
   font-size: 18px;
 }
+
+.mobile__link-btn{
+  display: none;
+}
+
 .top-form{
   background-color: #fff;
   padding: 20px;
@@ -446,7 +452,8 @@ body{
 .composition__link-btn,
 .reviews__link-btn,
 .build__link,
-.certificate__link{
+.certificate__link,
+.mobile__link-btn{
   padding: 22px 85px 22px 26px;
   outline: none;
   color: #fff;
