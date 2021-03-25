@@ -226,6 +226,7 @@ body{
   padding-top: 20px;
 }
 .list__title{
+  padding-top: 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
@@ -259,11 +260,9 @@ body{
   background-color: #f6f9f3;
 }
 .list__inner::before{
-  content: "";
   right: 100%;
 }
 .list__inner::after{
-  content: "";
   left: 100%;
 }
 .tabs{
@@ -353,7 +352,7 @@ body{
   flex-wrap: wrap;
 }
 .tabs__box .tab{
-  font-weight: 400;
+  font-weight: 600;
   width: 50%;
   text-transform: none;
   display: flex;
