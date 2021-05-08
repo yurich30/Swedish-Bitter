@@ -1,3 +1,55 @@
+@media(max-width: 1640px){
+    .popularity__right{
+        background-color: #fff;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+}
+@media(max-width: 1400px){
+    .popularity__wrapper{
+        background-size: 750px;
+    }
+}
+@media(max-width: 1230px){
+    .popularity{
+        position: relative;
+        padding-top: 50px;
+    }
+    .popularity__wrapper{
+        background-image: none;
+    }
+    .popularity__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .popularity__right{
+        max-width: 800px;
+    }
+    .popularity__box{
+        order: 1;
+        max-width: 600px;
+        margin-right: 0;
+        position: absolute;
+        z-index: 5;
+        bottom: -155px;
+    }
+    .popularity__box-link{
+        max-width: 600px;
+        width: 100%;
+    }
+    .mobile-bg{
+        display: block;
+        background-image: url(../images/popularity.jpg);
+        background-repeat: no-repeat;
+        min-height: 645px;
+        width: 100%;
+        background-size: cover;
+    }
+    .popularity__box-link{
+        max-width: 560px;
+    }
+}
 @media(max-width: 1024px){
     .top__inner-img{
         margin-left: 0;
@@ -143,6 +195,20 @@
         padding-right: 60px;
         padding-bottom: 60px;
     }
+    .popularity__box{
+        bottom: 0px;
+    }
+    .popularity__right{
+        max-width: 550px;
+    }
+    .popularity__right-title{
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .popularity__right-subtitle{
+        text-align: center;
+    }
 }
 
 @media(max-width: 760px){
@@ -215,6 +281,19 @@
 
     .advantages__inner{
         padding-top: 10px;
+    }
+    .popularity__box-link{
+        padding-right: 22px 10px 22px 10px;
+        text-align: center;
+        width: 100%;
+        position: static;
+        display: block;
+    }
+    .popularity__box-link::after{
+        display: none;
+    }
+    .popularity__right{
+        padding: 0;
     }
 }
 
@@ -320,6 +399,31 @@
     .tabs__reviews-link{
         bottom: 30px;
         left: 155px;
+    }
+    .popularity__right-title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .mobile-bg{
+        min-height: 245px;
+    }
+    .popularity__box{
+        bottom: -200px;
+        padding: 0;
+    }
+    .popularity__right-list li{
+        margin-bottom: 15px;
+    }
+    .popularity__wrapper{
+        min-height: 0;
+    }
+    .popularity__box-text{
+        text-align:center;
+        border: none;
+        padding: 10px;
+    }
+    .popularity__box-link{
+        padding: 10px;
     }
 }
 

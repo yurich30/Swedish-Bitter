@@ -478,6 +478,9 @@ body{
   right: 40px;
   top: 30px;
 }
+.mobile-bg{
+  display: none;
+}
 .popularity__right{
   max-width: 500px;
   widows: 100%;
