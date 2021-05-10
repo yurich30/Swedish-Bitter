@@ -100,6 +100,11 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+    .quote__wrapper, .quote{
+        padding: 0;
+        min-height: 0;
+        background-image: none;
+    }
 }
 @media(max-width: 1024px){
     .top__inner-img{
@@ -273,6 +278,7 @@
     }
     .history__form{
         padding-right: 57%;
+        padding-bottom: 135px;
     }
 }
 
@@ -374,6 +380,11 @@
     }
     .popularity__right{
         padding: 0;
+    }
+    .quote__inner{
+        border: none;
+        font-size: 20px;
+        line-height: 35px;
     }
 }
 
@@ -526,6 +537,16 @@
         padding-top: 50px;
         font-size: 20px;
         line-height: 26px;
+    }
+    .quote__inner{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0;
+    }
+    .author{
+        font-size: 14px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
 
