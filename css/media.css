@@ -187,6 +187,21 @@
     .tabs__reviews::before{
         right: 100%;
     }
+    .items{
+        background-color: #f6f9f3;
+    }
+    .items__title{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .items__inner{
+        padding: 20px 5px;
+    }
+    .item{
+        margin-left: 7px;
+        margin-right: 7px;
+        width: 33.3333%;
+    }
 }
 
 @media(max-width: 940px){
@@ -221,6 +236,9 @@
 
     .advantages__inner{
         padding-top: 100px;
+    }
+    .item{
+        min-height: 275px;
     }
 }
 
@@ -279,6 +297,17 @@
     .history__form{
         padding-right: 57%;
         padding-bottom: 135px;
+    }
+    .item{
+        max-width: 225px;
+        min-height: 225px;
+    }
+    .items__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .items__wrapper{
+        min-height: 300px;
     }
 }
 
@@ -385,6 +414,16 @@
         border: none;
         font-size: 20px;
         line-height: 35px;
+    }
+    .items__inner{
+        display: block;
+    }
+    .item{
+        max-width: 100%;
+        width: 100px;
+        border: none;
+        text-align: center;
+        margin: 0 auto;
     }
 }
 
@@ -547,6 +586,23 @@
         font-size: 14px;
         max-width: 300px;
         margin: 0 auto;
+    }
+    .items__inner{
+        background-color: #f6f9f3;
+    }
+    .item__number{
+        color: #fff;
+    }
+    .item__content-img{
+       margin-top: 15px;
+       margin-bottom: 20px;
+    }
+    .item__content-title{
+        width: 250px;
+    }
+    .items__title{
+        font-size: 24px;
+        line-height: 30px;
     }
 }
 
