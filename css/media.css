@@ -4,6 +4,15 @@
         padding-left: 15px;
         padding-right: 0;
     }
+    .history__form{
+        margin: 0;
+    }
+    .history__wrapper{
+        background-size: 50%;
+    }
+    .history__wrapper{
+        min-height: 0;
+    }
 }
 @media(max-width: 1400px){
     .popularity__wrapper{
@@ -48,6 +57,48 @@
     }
     .popularity__box-link{
         max-width: 560px;
+    }
+    .history__wrapper{
+        background-image: none;
+    }
+    .history__text{
+        max-width: 100%;
+        padding-bottom: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .history__title{
+        text-align: center;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .history{
+        background-color: #f6f9f3;
+        padding-top: 200px;
+    }
+    .history__form{
+        max-width: 100%;
+        background-color: #fff;
+        padding-top: 30px;
+        padding-right: 50%;
+        padding-bottom: 250px;
+        padding-left: 45px;
+        position: relative;
+    }
+    .history__form::after{
+        content: "";
+        width: 355px;
+        height: 420px;
+        background-image: url(../images/alonso.png);
+        position: absolute;
+        top: -25px;
+        right: 15px;
+        background-size: cover;
+    }
+    .history .container{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media(max-width: 1024px){
@@ -209,6 +260,20 @@
     .popularity__right-subtitle{
         text-align: center;
     }
+    .history__title{
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 460px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .history__text{
+        padding-top: 10px;
+    }
+    .history__form{
+        padding-right: 57%;
+    }
 }
 
 @media(max-width: 760px){
@@ -230,6 +295,21 @@
 @media(max-width: 700px){
     .header__text{
         display: none;
+    }
+    .history__title{
+        padding-top: 0;
+    }
+    .history__form{
+        padding-top: 400px;
+        padding-right: 45px;
+        padding-bottom: 50px;
+    }
+    .history__form::after{
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 385px;
     }
 }
 
@@ -424,6 +504,28 @@
     }
     .popularity__box-link{
         padding: 10px;
+    }
+    .history__form{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .history__form-title{
+        padding-right: 0;
+    }
+    .history__form input{
+        text-align: center;
+    }
+    .history .form__btn{
+        padding: 22px 5px;
+    }
+    .history .form__btn::after{
+        display: none;
+    }
+    .history__title{
+        padding-top: 50px;
+        font-size: 20px;
+        line-height: 26px;
     }
 }
 
