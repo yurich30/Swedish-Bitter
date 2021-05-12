@@ -222,6 +222,13 @@
         margin-right: 7px;
         width: 33.3333%;
     }
+    .certificate__content{
+        padding-left: 0;
+    }
+    .footer__logo,
+    .footer__phone{
+        display: none;
+    }
 }
 
 @media(max-width: 940px){
@@ -268,6 +275,29 @@
     }
     .reviews__link-tab{
         margin: 0px auto 30px auto;
+    }
+    .certificate__inner{
+        height: 100%;
+        display: block;
+    }
+    .certificate__title{
+        text-align: center;
+    }
+    .certificate__text{
+        padding-right: 0;
+        text-align: center;
+    }
+    .certificate__content{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .certificate__images {
+        position: static;
+        padding: 25px;
+        text-align: center;
+    }
+    .certificate{
+        padding-top: 50px;
     }
 }
 
@@ -395,6 +425,11 @@
     }
     .reviews-text{
         padding: 20px 70px 50px 70px;
+    }
+    .footer__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -744,6 +779,53 @@
     }
     .build__title{
         text-align: center;
+    }
+    .certificate__images img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .certificate__box fieldset {
+        padding: 45px 10px 95px 10px;
+        background-color: #f6f9f3;
+    }
+    .certificate__title{
+        font-style: 24px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    .certificate{
+        background-color: #f6f9f3;
+    }
+    .certificate__box{
+        padding: 0;
+        background-color: #f6f9f3;
+    }
+    .certificate__box legend{
+        text-align: center;
+        margin: 0;
+        font-weight: bold;
+    }
+    .certificate__link{
+        padding: 22px 5px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-top: 25px;
+        position: static;
+    }
+    .reviews__link-btn{
+        padding: 20px;
+    }
+    .reviews__link-btn::after{
+        display: none;
+    }
+    .certificate__link::after{
+        display: none;
+    }
+    .certificate__box fieldset{
+        border: none;
+        background-color: #f6f9f3;
+        padding: 0;
     }
 }
 
